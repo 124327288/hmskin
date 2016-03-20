@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="frame">
+      <UniqueIdentifier>{2233b23c-9aa7-411f-a5de-0d29908ce7db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frame\inc">
+      <UniqueIdentifier>{2f15a9fe-0e3b-442b-bddd-df098fd5cda4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frame\src">
+      <UniqueIdentifier>{ca420952-2fef-4f13-ae65-e45ebfb35544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hook_system">
+      <UniqueIdentifier>{40e9d1c2-14c8-4f49-bd8b-de9c67ca014f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hook_system\inc">
+      <UniqueIdentifier>{dcdcba59-18a4-4d69-9c85-adec4b7850b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hook_system\src">
+      <UniqueIdentifier>{7fd354bc-e1a5-42be-8a85-add24ec90016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="keelctrl_repository">
+      <UniqueIdentifier>{617977e2-2185-4b15-8f27-8e06241826d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="keelctrl_repository\inc">
+      <UniqueIdentifier>{494ab386-07dd-42ad-b0f6-25358f51f470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="keelctrl_repository\src">
+      <UniqueIdentifier>{66411fca-8e7e-477f-a4ff-89fe341e948f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="paint_system">
+      <UniqueIdentifier>{ff3ce8d2-366a-4406-a5cb-e19fa432e22a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="paint_system\inc">
+      <UniqueIdentifier>{3ae6eb93-d7d9-48fe-954a-71e87e4bcaba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="paint_system\src">
+      <UniqueIdentifier>{a67f5b02-068c-47f7-b26f-0d698cd69e67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource_system">
+      <UniqueIdentifier>{666813e3-4b47-4c9f-8ca3-4909a79b7e14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource_system\inc">
+      <UniqueIdentifier>{d9a80683-8d2f-4b9d-a572-d7674d5996ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource_system\src">
+      <UniqueIdentifier>{31580fc2-c67e-42e2-a3d7-a413c0b1f82d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wndmsgprocessor">
+      <UniqueIdentifier>{06204c10-ac7f-41d3-96cb-2b777194bc91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wndmsgprocessor\inc">
+      <UniqueIdentifier>{4aa87801-221b-406c-aab8-0ea82ae82f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wndmsgprocessor\src">
+      <UniqueIdentifier>{4bf0333c-e14f-40e1-82b8-52ccc70a877f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wndctrl_repository">
+      <UniqueIdentifier>{07639bbe-8a43-47ae-ba51-54f071b29ff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wndctrl_repository\inc">
+      <UniqueIdentifier>{4580e11b-7b43-4a72-97ff-a48b64039033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wndctrl_repository\src">
+      <UniqueIdentifier>{42a57a45-d997-4b3a-aa6f-15c471b62596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface">
+      <UniqueIdentifier>{e2cb204a-37ca-42d5-be0a-3b9c3df8626c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{0c5ceaed-6dcb-4093-a2a6-5e9404979172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\inc">
+      <UniqueIdentifier>{91fb832e-b0f5-4299-b0ae-42272f7fde3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\src">
+      <UniqueIdentifier>{e80f0cc6-6a43-4a83-82e3-4c9b64cec125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loader">
+      <UniqueIdentifier>{b945c69b-e2b6-4760-8421-41fd60c0c613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loader\inc">
+      <UniqueIdentifier>{10c59368-f26a-4412-a45f-f3881dd0dc69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loader\src">
+      <UniqueIdentifier>{671e67bc-a5ad-4a4b-8b10-18d977d5f6bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="keelobjs">
+      <UniqueIdentifier>{971691b1-be71-4ad5-814a-7ec96554eab3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\hm_win_globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\hm_win_misc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\hmskin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\frame\hm_coordinate_system_hwnd.cpp">
+      <Filter>frame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\frame\hm_debug_utils.cpp">
+      <Filter>frame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\frame\hm_hook_trackpopupmenu.cpp">
+      <Filter>frame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\frame\hm_keel_obj.cpp">
+      <Filter>frame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\frame\hm_layout_decoders.cpp">
+      <Filter>frame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\frame\hm_layout_obj.cpp">
+      <Filter>frame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\frame\hm_msg_sink.cpp">
+      <Filter>frame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\frame\hm_pos_decoders.cpp">
+      <Filter>frame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\frame\hm_uiroot.cpp">
+      <Filter>frame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\hook_system\hm_hs_apihook.cpp">
+      <Filter>hook_system\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\hook_system\hm_hs_mouse_proc_hook.cpp">
+      <Filter>hook_system\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\hook_system\hm_hs_whellengine.cpp">
+      <Filter>hook_system\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\hook_system\hm_hs_wnd_msg_dispatch.cpp">
+      <Filter>hook_system\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\hook_system\hm_hs_wnd_proc_hook.cpp">
+      <Filter>hook_system\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\hook_system\hm_hs_wnd_proc_mgr.cpp">
+      <Filter>hook_system\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\keelctrl_repository\hm_keelctrl_base.cpp">
+      <Filter>keelctrl_repository\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\keelctrl_repository\hm_keelctrl_scrollview.cpp">
+      <Filter>keelctrl_repository\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\paint_system\hm_ps_canvas.cpp">
+      <Filter>paint_system\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\paint_system\hm_ps_drawtool_gdi.cpp">
+      <Filter>paint_system\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\paint_system\hm_ps_drawtool_gdiplus.cpp">
+      <Filter>paint_system\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\resource_system\hm_rs_rawres_base.cpp">
+      <Filter>resource_system\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\resource_system\hm_rs_uires_color.cpp">
+      <Filter>resource_system\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\resource_system\hm_rs_uires_i.cpp">
+      <Filter>resource_system\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\resource_system\hm_rs_uires_text.cpp">
+      <Filter>resource_system\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\resource_system\hm_rs_wndmark.cpp">
+      <Filter>resource_system\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\wmp\hm_wmp_bkgnd.cpp">
+      <Filter>wndmsgprocessor\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\wmp\hm_wmp_bkgnd_nca.cpp">
+      <Filter>wndmsgprocessor\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\wmp\hm_wmp_button.cpp">
+      <Filter>wndmsgprocessor\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\wmp\hm_wmp_button_nca.cpp">
+      <Filter>wndmsgprocessor\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\wmp\hm_wmp_dialogview.cpp">
+      <Filter>wndmsgprocessor\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\wmp\hm_wmp_display.cpp">
+      <Filter>wndmsgprocessor\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\wmp\hm_wmp_drawtrigger.cpp">
+      <Filter>wndmsgprocessor\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\wmp\hm_wmp_drawtrigger_nca.cpp">
+      <Filter>wndmsgprocessor\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\wmp\hm_wmp_layouttrigger.cpp">
+      <Filter>wndmsgprocessor\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\wmp\hm_wmp_movewnd.cpp">
+      <Filter>wndmsgprocessor\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\wmp\hm_wmp_popupmenu.cpp">
+      <Filter>wndmsgprocessor\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\wmp\hm_wmp_rootmenu.cpp">
+      <Filter>wndmsgprocessor\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\wmp\hm_wmp_scrollbar.cpp">
+      <Filter>wndmsgprocessor\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\wmp\hm_wmp_tab.cpp">
+      <Filter>wndmsgprocessor\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\wmp\hm_wmp_viewbkcontent.cpp">
+      <Filter>wndmsgprocessor\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\wmp\hm_wndmsgprocessor_i.cpp">
+      <Filter>wndmsgprocessor\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\wndctrl_repository\hm_wndctrl_base.cpp">
+      <Filter>wndctrl_repository\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\wndctrl_repository\hm_wndctrl_popmenu.cpp">
+      <Filter>wndctrl_repository\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\hm_cmn_pattern_observer.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\hm_cmn_refcnt.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\hm_wndmsg_publisher.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\loader\hm_loader_base.cpp">
+      <Filter>loader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\loader\hm_loader_color.cpp">
+      <Filter>loader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\loader\hm_loader_coordinatesystem.cpp">
+      <Filter>loader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\loader\hm_loader_font.cpp">
+      <Filter>loader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\loader\hm_loader_keelobj.cpp">
+      <Filter>loader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\loader\hm_loader_msgsink.cpp">
+      <Filter>loader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\loader\hm_loader_wmp.cpp">
+      <Filter>loader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\loader\hm_manifest_base.cpp">
+      <Filter>loader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\loader\hm_manifest_creator.cpp">
+      <Filter>loader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\loader\hm_manifest_json.cpp">
+      <Filter>loader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\loader\hm_manifest_loader.cpp">
+      <Filter>loader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\loader\hm_manifest_xml.cpp">
+      <Filter>loader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\keelobjs\hm_keelobj_canvas.cpp">
+      <Filter>keelobjs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\loader\hm_wmp_loader_depot.cpp">
+      <Filter>loader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\loader\hm_wmp_loaders.cpp">
+      <Filter>loader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\loader\hm_wmp_loader_base.cpp">
+      <Filter>loader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\loader\hm_loader_rawpic.cpp">
+      <Filter>loader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\resource_system\hm_rs_uires_pic.cpp">
+      <Filter>resource_system\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\wmp\hm_wmp_checkbox.cpp">
+      <Filter>wndmsgprocessor\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\win\hm_win_misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\frame\hm_coordinate_system_hwnd.h">
+      <Filter>frame\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\frame\hm_debug_utils.h">
+      <Filter>frame\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\frame\hm_hook_trackpopupmenu.h">
+      <Filter>frame\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\frame\hm_keel_obj.h">
+      <Filter>frame\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\frame\hm_layout_decoders.h">
+      <Filter>frame\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\frame\hm_layout_obj.h">
+      <Filter>frame\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\frame\hm_msg_sink.h">
+      <Filter>frame\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\frame\hm_pos_decoders.h">
+      <Filter>frame\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\frame\hm_uiroot.h">
+      <Filter>frame\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\hook_system\hm_hs_apihook.h">
+      <Filter>hook_system\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\hook_system\hm_hs_mouse_proc_hook.h">
+      <Filter>hook_system\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\hook_system\hm_hs_whellengine.h">
+      <Filter>hook_system\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\hook_system\hm_hs_wnd_msg_dispatch.h">
+      <Filter>hook_system\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\hook_system\hm_hs_wnd_proc_hook.h">
+      <Filter>hook_system\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\hook_system\hm_hs_wnd_proc_mgr.h">
+      <Filter>hook_system\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\keelctrl_repository\hm_keelctrl_base.h">
+      <Filter>keelctrl_repository\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\keelctrl_repository\hm_keelctrl_scrollview.h">
+      <Filter>keelctrl_repository\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\paint_system\hm_ps_canvas.h">
+      <Filter>paint_system\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\paint_system\hm_ps_drawtool_gdi.h">
+      <Filter>paint_system\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\paint_system\hm_ps_drawtool_gdiplus.h">
+      <Filter>paint_system\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\paint_system\hm_ps_drawtool_i.h">
+      <Filter>paint_system\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\paint_system\hm_ps_paint_layer_i.h">
+      <Filter>paint_system\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\paint_system\hm_ps_paint_layer_pic.h">
+      <Filter>paint_system\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\resource_system\hm_rs_global.h">
+      <Filter>resource_system\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\resource_system\hm_rs_rawres_base.h">
+      <Filter>resource_system\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\resource_system\hm_rs_uires_color.h">
+      <Filter>resource_system\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\resource_system\hm_rs_uires_i.h">
+      <Filter>resource_system\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\resource_system\hm_rs_uires_text.h">
+      <Filter>resource_system\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\resource_system\hm_rs_wndmark.h">
+      <Filter>resource_system\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\wmp\hm_wmp_bkgnd.h">
+      <Filter>wndmsgprocessor\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\wmp\hm_wmp_bkgnd_nca.h">
+      <Filter>wndmsgprocessor\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\wmp\hm_wmp_button.h">
+      <Filter>wndmsgprocessor\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\wmp\hm_wmp_button_nca.h">
+      <Filter>wndmsgprocessor\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\wmp\hm_wmp_dialogview.h">
+      <Filter>wndmsgprocessor\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\wmp\hm_wmp_display.h">
+      <Filter>wndmsgprocessor\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\wmp\hm_wmp_drawtrigger.h">
+      <Filter>wndmsgprocessor\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\wmp\hm_wmp_drawtrigger_nca.h">
+      <Filter>wndmsgprocessor\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\wmp\hm_wmp_layouttrigger.h">
+      <Filter>wndmsgprocessor\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\wmp\hm_wmp_movewnd.h">
+      <Filter>wndmsgprocessor\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\wmp\hm_wmp_popupmenu.h">
+      <Filter>wndmsgprocessor\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\wmp\hm_wmp_rootmenu.h">
+      <Filter>wndmsgprocessor\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\wmp\hm_wmp_scrollbar.h">
+      <Filter>wndmsgprocessor\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\wmp\hm_wmp_tab.h">
+      <Filter>wndmsgprocessor\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\wmp\hm_wmp_viewbkcontent.h">
+      <Filter>wndmsgprocessor\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\wmp\hm_wndmsgprocessor_i.h">
+      <Filter>wndmsgprocessor\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\wndctrl_repository\hm_wndctrl_base.h">
+      <Filter>wndctrl_repository\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\wndctrl_repository\hm_wndctrl_popmenu.h">
+      <Filter>wndctrl_repository\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\hm_export_defs.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\hmskin.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\hmskin_cpp.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\common\FuncPack.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\common\hm_cmn_envcfg.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\common\hm_cmn_idobj.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\common\hm_cmn_pattern_factory.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\common\hm_cmn_pattern_observer.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\common\hm_cmn_patterns.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\common\hm_cmn_refcnt.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\common\hm_wndmsg_publisher.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\common\MemFuncPack.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\loader\hm_loader_base.h">
+      <Filter>loader\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\loader\hm_loader_color.h">
+      <Filter>loader\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\loader\hm_loader_coordinatesystem.h">
+      <Filter>loader\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\loader\hm_loader_font.h">
+      <Filter>loader\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\loader\hm_loader_keelobj.h">
+      <Filter>loader\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\loader\hm_loader_msgsink.h">
+      <Filter>loader\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\loader\hm_loader_wmp.h">
+      <Filter>loader\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\loader\hm_manifest_base.h">
+      <Filter>loader\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\loader\hm_manifest_creator.h">
+      <Filter>loader\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\loader\hm_manifest_json.h">
+      <Filter>loader\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\loader\hm_manifest_loader.h">
+      <Filter>loader\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\loader\hm_manifest_xml.h">
+      <Filter>loader\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\keelobjs\hm_keelobj_canvas.h">
+      <Filter>keelobjs</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\loader\hm_wmp_loader_base.h">
+      <Filter>loader\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\loader\hm_wmp_loader_depot.h">
+      <Filter>loader\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\loader\hm_wmp_loaders.h">
+      <Filter>loader\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\hmskin_event_listener_base.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\hmskin_event_defs.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\loader\hm_loader_rawpic.h">
+      <Filter>loader\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\resource_system\hm_rs_uires_pic.h">
+      <Filter>resource_system\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\win\wmp\hm_wmp_checkbox.h">
+      <Filter>wndmsgprocessor\inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

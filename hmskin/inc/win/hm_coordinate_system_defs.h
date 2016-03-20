@@ -1,0 +1,8 @@
+#ifndef __HM_COORDINATE_SYSTEM_DEFS_H__
+#define __HM_COORDINATE_SYSTEM_DEFS_H__
+
+//
+
+
+
+#endif //__HM_COORDINATE_SYSTEM_DEFS_H__
